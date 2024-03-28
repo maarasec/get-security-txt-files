@@ -2,7 +2,7 @@
 
 # -- SECURITY.TXT FINDER (@maara https://github.com/maarasec) ---
 # This script uses ~6M domains (merged from Clouflare Radar, Alexa and other data sources) to identify security.txt URLs.
-# List is filtered firstly by 'massdns' and then by 'wfuzz'. The rest is visited to see which 
+# List is filtered firstly by 'massdns' and then by 'wfuzz'. The rest is visited to see which locations contains valid security.txt file.
 # 
 # Data sources for top domains:
 # - Clouflare Radar (https://radar.cloudflare.com/domains)
